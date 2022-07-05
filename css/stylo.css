@@ -1,0 +1,163 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1606/Mens_evening_sea_running-2016_Sport_HD_Wallpaper_1366x768.jpg) no-repeat center center fixed;
+    margin-top: 3cm;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+    margin-bottom: 3cm;
+}
+
+#ph{
+    margin: 0px;
+    width: 200px;
+    height: 20px;
+}
+
+#pf{
+    background: white;
+    margin: 0px;
+    width: 200px;
+    height: 20px;
+    /* background: blue; */
+}
+
+/* header */
+
+#conteiner{
+    background: rgb(255, 255, 255); 
+    margin-top:3cm ;
+    margin-right: 2.5cm;
+    margin-left: 2.5cm;
+}
+
+.logo{
+    background: white;
+}
+.logo img{
+width: 150px;
+height: 75px;
+margin-top: 5px;
+}
+
+.datos {
+    margin-top: 50px;
+    color: black;
+    float: right;
+}
+
+.ancho {
+    background: white;
+    height: 90px;
+}
+
+/* nav */
+
+.submenu {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.submenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+}
+
+a:hover {
+    background-color: blue;
+
+}
+
+.submenu ul li ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+}
+
+.submenu ul li ul li {
+    width: 140px;
+}
+
+.submenu ul li ul {
+    display: none;
+}
+
+.submenu ul li:hover>ul {
+    display: block;
+}
+
+/* footer */
+
+footer{
+    background: rgb(0, 0, 0);
+    /* border: solid 3px blue; */
+    display: flex;    
+    width: 100%;
+}
+
+#f1{
+   width: 50%;
+   height: 50%;
+   margin-top: 10px;
+   margin-left: 40px;
+   margin-right: 20px;
+   color: white;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 20px;
+   font-style:calc();
+}
+#f2{
+
+   width: 30%;
+   height: 50%;
+   margin-top: 10px;
+   margin-right: 50px;
+   color: white ;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 20px;
+
+}
+#f3{
+    width: 40%;
+    height: 50%;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+#footerUltimatiun{
+    padding-left: 20%;
+}
+
+.imgf{
+    width: 40px;
+	height: 40px;
+	margin-left: 5px;
+	opacity: 0.5;
+	padding: 10px;
+	border-radius: 20px;
+}
+#imgsfoter{
+    width: 100%;
+    height:50% ;
+    position: relative;
+    text-align: center;
+}

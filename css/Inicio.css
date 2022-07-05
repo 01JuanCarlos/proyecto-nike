@@ -1,0 +1,102 @@
+﻿
+#video{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ofertaSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+}
+
+#conteiner1{
+    float: left;
+    margin-left: 2.5%;
+    width: 40%;
+
+} 
+#conteiner2{
+    float: left;
+    width: 54%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 2.5%;
+}
+
+#ofertas{
+    display: flex;
+}
+
+#imgoferta{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    float: left;
+    padding-top: 80px;
+}
+
+#texto{
+    margin-top: px;
+    display: inline-flex;
+    font-size: 34px;
+}
+#texto h4{
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2#subtitulo1 {
+    font-size: 60px;
+    /* Firefox */ 
+    -moz-transition: font-size 1000ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: font-size 1000ms linear 0s;
+    /* Defual */
+    transition: font-size 1000ms linear 0s;
+    margin: 0px;
+    padding-bottom: 22px;
+    transition: all 0.001s;
+}
+
+h2#subtitulo1:hover {
+    font-size: 70px;
+    padding: 0px;
+}
+
+#subtitulo2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    display: inline-flex;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sectiontop{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#contenedor_simple{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    padding-top: 15%;
+    text-align: center;
+    font-size: 40px;
+}
+

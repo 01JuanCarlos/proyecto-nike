@@ -1,0 +1,69 @@
+
+.nike {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+section {
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.datos {
+    margin-top: 50px;
+    color: black;
+    float: right;
+
+}
+
+section {
+    margin-top: 100px;
+}
+
+.pd {
+    color: grey;
+}
+
+.blok {
+    width: 22%;
+    min-height: 200px;
+    height: auto;
+    border: 1px black solid;
+    float: left;
+    margin: 1%;
+}
+
+.imgsc {
+    width: 98%;
+    height: 250px;
+    margin: 3px 1% 3px 1%;
+    float: left;
+}
+
+
+.error {
+    display: none;
+    color: crimson;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.errorActivo {
+    display: block;
+}
+
+.completado{
+    font-size: 20px;
+    display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.completadoreal{
+    display: block;
+}
+
